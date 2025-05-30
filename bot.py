@@ -1,7 +1,7 @@
 import telebot
 import sqlite3
 
-BOT_TOKEN = 'PASTE_YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = '8162907304:AAEzeqxRP8lCFxzY8tj-3HdySxvNXAJd3i4'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Database setup
