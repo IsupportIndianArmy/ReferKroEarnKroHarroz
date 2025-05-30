@@ -39,7 +39,7 @@ def start(message):
             cursor.execute("UPDATE users SET points = points + 1 WHERE user_id = ?", (referred_by,))
         conn.commit()
 
-    bot.send_message(user_id, f"👋 Welcome, {username}!
+    bot.send_message(user_id, f"Welcome, {username}!")
 
 "
                               f"🔗 Your referral link:
