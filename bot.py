@@ -41,7 +41,7 @@ def start(message):
 
     bot.send_message(user_id, f"Welcome, {username}!")
 
-"
+"bot.send_message(user_id, f"Hello, {username}!")
                               f"🔗 Your referral link:
 "
                               f"https://t.me/YOUR_BOT_USERNAME?start={user_id}")
